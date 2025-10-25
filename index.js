@@ -5,7 +5,7 @@ var cors = require('cors')
 const mongoose = require('mongoose')
 
 
-const MONGODB_URL = 'mongodb+srv://buoi2:123@cluster0.jzdibrv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const MONGODB_URL = 'mongodb+srv://buoi2:123@cluster0.jzdibrv.mongodb.net/?appName=Cluster0'
 
 // Kết nối MongoDB (không dùng callback nữa)
 mongoose.connect(MONGODB_URL, {
